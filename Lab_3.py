@@ -10,3 +10,9 @@ print(countlist)
 
 idexing_list =  mylist[0] = "Apples is removed "
 print(idexing_list)
+
+mylist.remove("Apples is removed ")
+print(mylist)
+
+mylist[2] = "Apple"
+print(mylist)
