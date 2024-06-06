@@ -16,3 +16,10 @@ print(mylist)
 
 mylist[2] = "Apple"
 print(mylist)
+
+mylist.insert(1,("MEAT"))
+print(mylist)
+mylist.sort()
+print(mylist)
+mylist.pop(0)
+print(mylist)
