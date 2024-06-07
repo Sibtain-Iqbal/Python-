@@ -23,3 +23,7 @@ mylist.sort()
 print(mylist)
 mylist.pop(0)
 print(mylist)
+
+print(mylist[1:3])
+print(mylist[:])
+print(mylist[:-1])
