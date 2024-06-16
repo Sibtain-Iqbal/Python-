@@ -27,3 +27,16 @@ print(mylist)
 print(mylist[1:3])
 print(mylist[:])
 print(mylist[:-1])
+
+# eg:Dicitionay and practice
+my_dicitionary = {
+"Name": "Sibtain",
+"Sex": "Male",
+"Age": 19,
+"Year" : 2024
+}
+
+print(my_dicitionary)
+
+my_dicitionary.pop("Name")
+print(my_dicitionary)
