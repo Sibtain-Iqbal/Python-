@@ -40,3 +40,9 @@ print(my_dicitionary)
 
 my_dicitionary.pop("Name")
 print(my_dicitionary)
+my_dicitionary["Year"] = "Since"
+print(my_dicitionary)
+my_dicitionary.get("Age")
+print(my_dicitionary)
+
+# loops
