@@ -50,3 +50,15 @@ i =1
 while i < 6:
     i = i +1
     print(i)
+
+Value = 1
+while Value < 20:
+    if Value !=0:
+        Value += 1
+        print(Value)
+
+# For Loop
+numbers = [1,2,3,4,5,6,7,8]
+for num in numbers :
+    if numbers != num**2 :
+        print(num)
