@@ -46,3 +46,7 @@ my_dicitionary.get("Age")
 print(my_dicitionary)
 
 # loops
+i =1
+while i < 6:
+    i = i +1
+    print(i)
