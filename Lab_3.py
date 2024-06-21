@@ -62,3 +62,7 @@ numbers = [1,2,3,4,5,6,7,8]
 for num in numbers :
     if numbers != num**2 :
         print(num)
+
+languages = ['Swift', 'Python', 'Go', 'JavaScript']
+languages.append("Golang")
+print(languages)
