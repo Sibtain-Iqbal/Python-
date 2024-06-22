@@ -66,3 +66,15 @@ for num in numbers :
 languages = ['Swift', 'Python', 'Go', 'JavaScript']
 languages.append("Golang")
 print(languages)
+
+All_numbers = []
+num_a = All_numbers.append( int(input("Enter the Value : ")))
+num_b =All_numbers.append( int(input("Enter the value :  ")))
+num_c = All_numbers.append(int(input("Enter The Value:  ")))
+All_numbers.sort()
+minimum_value = All_numbers[0:1]
+sums = sum(All_numbers)
+min_3 = min(All_numbers)
+print(f"The Sum of all value in this list is : { sums}")
+print(f"The minimum  value in this list is : { min_3}")
+print(All_numbers)
