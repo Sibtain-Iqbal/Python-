@@ -78,3 +78,18 @@ min_3 = min(All_numbers)
 print(f"The Sum of all value in this list is : { sums}")
 print(f"The minimum  value in this list is : { min_3}")
 print(All_numbers)
+# problems
+
+
+
+
+print("Welcome to the Number Guessing Game! and I have chosen a number between 1 and 10. Try to guess it.")
+secrete_number = 9
+guess = None
+while guess != secrete_number :
+    guess = int(input("Enter guessing number : "))
+    if guess == secrete_number :
+        print(f"Congratulation you have select correct number : {secrete_number} ")
+    else :
+        print("That is incorrect. Guess again.")
+print("Thanks for playing!")
