@@ -93,3 +93,11 @@ while guess != secrete_number :
     else :
         print("That is incorrect. Guess again.")
 print("Thanks for playing!")
+
+
+user = None
+for num in range(8, 90, 3):
+    user = num
+    print(user)
+   
+print(user)
