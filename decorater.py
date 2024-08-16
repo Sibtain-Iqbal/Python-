@@ -12,7 +12,3 @@ def timer(func):
 def example_func(w):
     time.sleep(w)
 example_func(2)
-
-def timer2():
-    print()
-timer()
