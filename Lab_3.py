@@ -4,3 +4,9 @@ for fruits in mylist :
 
 mylist.append("Mangoes")
 print(mylist)
+
+ countlist = mylist.count("Mangoes")
+print(countlist)
+
+idexing_list =  mylist[0] = "Apples is removed "
+print(idexing_list)
